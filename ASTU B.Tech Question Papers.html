@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/lenovo/Downloads/astu-papers.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ASTU B.Tech Question Papers</title>
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--text:#1b2230;--muted:#667085;--line:#e2e6ee;--accent:#2457d6;--accent-t:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f131b;--card:#181e2a;--text:#e8ecf4;--muted:#98a2b3;--line:#2a3345;--accent:#6c93ff;--accent-t:#0f131b}}
+:root[data-theme="dark"]{--bg:#0f131b;--card:#181e2a;--text:#e8ecf4;--muted:#98a2b3;--line:#2a3345;--accent:#6c93ff;--accent-t:#0f131b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+.wrap{max-width:920px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.6rem;margin:8px 0 4px}
+h2{font-size:1.2rem;margin:4px 0 14px}
+.sub{color:var(--muted);margin:0 0 16px}
+input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font:inherit;margin-bottom:16px}
+.crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.9rem;margin-bottom:14px;color:var(--muted)}
+.crumbs button{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:left;cursor:pointer;color:var(--text);font:inherit}
+.card:hover{border-color:var(--accent)}
+.card b{display:block;font-size:1.02rem}
+.m{color:var(--muted);font-size:.85rem}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.t{font-weight:600}
+.btn{background:var(--accent);color:var(--accent-t);text-decoration:none;padding:8px 14px;border-radius:9px;font-size:.9rem;font-weight:600}
+.btn.off{background:var(--line);color:var(--muted)}
+.empty{text-align:center;color:var(--muted);padding:28px 0}
+footer{margin-top:28px;color:var(--muted);font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>ASTU B.Tech Question Papers</h1>
+<p class="sub">Choose department, then semester, then subject.</p>
+<div class="crumbs" id="crumbs"><button data-d="">Home</button></div>
+<div id="view"><input id="q" type="search" placeholder="Search any subject or code…" value=""><h2>Departments</h2><div class="grid"><button class="card" data-d="1st Year · Group A" data-s="" data-sub=""><b>1st Year · Group A</b><span class="m">1 paper</span></button><button class="card" data-d="1st Year · Group B" data-s="" data-sub=""><b>1st Year · Group B</b><span class="m">1 paper</span></button><button class="card" data-d="CSE" data-s="" data-sub=""><b>CSE</b><span class="m">3 papers</span></button><button class="card" data-d="IT" data-s="" data-sub=""><b>IT</b><span class="m">0 papers</span></button><button class="card" data-d="ECE" data-s="" data-sub=""><b>ECE</b><span class="m">1 paper</span></button><button class="card" data-d="EEE" data-s="" data-sub=""><b>EEE</b><span class="m">0 papers</span></button><button class="card" data-d="Civil" data-s="" data-sub=""><b>Civil</b><span class="m">1 paper</span></button><button class="card" data-d="Mechanical" data-s="" data-sub=""><b>Mechanical</b><span class="m">1 paper</span></button><button class="card" data-d="Chemical" data-s="" data-sub=""><b>Chemical</b><span class="m">0 papers</span></button></div></div>
+<footer>Unofficial student resource, not affiliated with ASTU. Papers belong to their respective owners.</footer>
+</div>
+<script>
+/* ADD YOUR PAPERS HERE. One line per paper.
+   dept must match a name in DEPTS. link: Google Drive / PDF link ("" if not added yet) */
+var PAPERS=[
+ {dept:"CSE",sem:3,code:"DSA 001",subject:"Data Structures and Algorithms (sample)",year:2023,type:"End Sem",link:""},
+ {dept:"CSE",sem:3,code:"DSA 001",subject:"Data Structures and Algorithms (sample)",year:2022,type:"End Sem",link:""},
+ {dept:"CSE",sem:4,code:"CS-402",subject:"Operating Systems (sample)",year:2022,type:"End Sem",link:""},
+ {dept:"ECE",sem:3,code:"PE-241301",subject:"Semiconductor Device and Circuits",year:2023,type:"End Sem",link:""},
+ {dept:"Civil",sem:5,code:"CE-501",subject:"Structural Analysis (sample)",year:2021,type:"End Sem",link:""},
+ {dept:"Mechanical",sem:4,code:"ME-401",subject:"Thermodynamics (sample)",year:2022,type:"End Sem",link:""},
+ {dept:"1st Year · Group A",sem:1,code:"MA-101",subject:"Mathematics I (sample)",year:2023,type:"End Sem",link:"https://drive.google.com/file/d/1IFegBlNrwBcg21A7h6boYyRbGDch-W-u/view?usp=sharing"},
+ {dept:"1st Year · Group B",sem:2,code:"PH-101",subject:"Physics (sample)",year:2023,type:"End Sem",link:""}
+];
+var DEPTS=["1st Year · Group A","1st Year · Group B","CSE","IT","ECE","EEE","Civil","Mechanical","Chemical"];
+var SEMS={"1st Year · Group A":[1,2],"1st Year · Group B":[1,2]};
+var st={d:null,s:null,sub:null};
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function ord(n){return ["","1st","2nd","3rd"][n]||n+"th"}
+function sems(d){return SEMS[d]||[3,4,5,6,7,8]}
+function subjects(d,s){var o={};PAPERS.forEach(function(p){if(p.dept===d&&p.sem===s){var k=p.code;(o[k]=o[k]||{code:p.code,name:p.subject,n:0}).n++}});return Object.keys(o).map(function(k){return o[k]})}
+function card(d,s,sub,title,meta){return "<button class='card' data-d=\""+esc(d)+"\" data-s=\""+(s||"")+"\" data-sub=\""+esc(sub||"")+"\"><b>"+esc(title)+"</b><span class='m'>"+esc(meta)+"</span></button>"}
+function crumbs(){
+ var h="<button data-d=''>Home</button>";
+ if(st.d)h+=" › "+(st.s?"<button data-d=\""+esc(st.d)+"\">"+esc(st.d)+"</button>":"<span>"+esc(st.d)+"</span>");
+ if(st.s)h+=" › "+(st.sub?"<button data-d=\""+esc(st.d)+"\" data-s=\""+st.s+"\">"+ord(st.s)+" Sem</button>":"<span>"+ord(st.s)+" Sem</span>");
+ if(st.sub)h+=" › <span>"+esc(st.sub)+"</span>";
+ $("crumbs").innerHTML=h;
+}
+function home(){
+ var q=($("q")||{}).value||"";
+ var h="<input id='q' type='search' placeholder='Search any subject or code…' value=\""+esc(q)+"\">";
+ if(q){
+  var seen={},r=[];
+  PAPERS.forEach(function(p){var k=p.dept+p.sem+p.code;if(!seen[k]&&(p.subject+" "+p.code).toLowerCase().indexOf(q.toLowerCase())>-1){seen[k]=1;r.push(p)}});
+  h+=r.length?"<div class='grid'>"+r.map(function(p){return card(p.dept,p.sem,p.code,p.subject,p.dept+" · "+ord(p.sem)+" Sem")}).join("")+"</div>":"<div class='empty'>No subjects found.</div>";
+ }else{
+  h+="<h2>Departments</h2><div class='grid'>"+DEPTS.map(function(d){var n=PAPERS.filter(function(p){return p.dept===d}).length;return card(d,"","",d,n+" paper"+(n===1?"":"s"))}).join("")+"</div>";
+ }
+ return h;
+}
+function render(){
+ crumbs();var h;
+ if(!st.d){h=home()}
+ else if(!st.s){h="<h2>"+esc(st.d)+" · Semesters</h2><div class='grid'>"+sems(st.d).map(function(s){var n=subjects(st.d,s).length;return card(st.d,s,"",ord(s)+" Semester",n+" subject"+(n===1?"":"s"))}).join("")+"</div>"}
+ else if(!st.sub){var sj=subjects(st.d,st.s);h="<h2>"+esc(st.d)+" · "+ord(st.s)+" Semester</h2>"+(sj.length?"<div class='grid'>"+sj.map(function(x){return card(st.d,st.s,x.code,x.name,x.code+" · "+x.n+" paper"+(x.n===1?"":"s"))}).join("")+"</div>":"<div class='empty'>No subjects added yet.</div>")}
+ else{
+  var ps=PAPERS.filter(function(p){return p.dept===st.d&&p.sem===st.s&&p.code===st.sub}).sort(function(a,b){return b.year-a.year});
+  h="<h2>"+esc(ps.length?ps[0].subject:st.sub)+"</h2><div class='list'>"+ps.map(function(p){
+   var b=p.link?"<a class='btn' target='_blank' rel='noopener' href=\""+esc(p.link)+"\">Open PDF</a>":"<span class='btn off'>Not added yet</span>";
+   return "<div class='item'><div><div class='t'>"+p.year+" · "+esc(p.type)+"</div><div class='m'>"+esc(p.code)+"</div></div>"+b+"</div>"}).join("")+"</div>";
+ }
+ $("view").innerHTML=h;
+ var q=$("q");if(q)q.addEventListener("input",function(){var v=q.value;render();var n=$("q");n.focus();n.setSelectionRange(v.length,v.length)});
+}
+document.addEventListener("click",function(e){
+ var t=e.target.closest("[data-d]");if(!t)return;
+ var d=t.getAttribute("data-d"),s=t.getAttribute("data-s"),sub=t.getAttribute("data-sub");
+ st={d:d||null,s:s?parseInt(s,10):null,sub:sub||null};render();window.scrollTo(0,0);
+});
+render();
+</script>
+
+
+</body></html>
